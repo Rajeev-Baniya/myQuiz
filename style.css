@@ -1,0 +1,48 @@
+
+html{
+    background-color: rgb(26, 24, 24);
+}
+h1{
+    text-align:center;
+}
+#quiz{
+    
+    width:50%;
+    margin: 10px auto;
+    
+}
+p, h3{
+    margin: 20px;
+    font-size: large;
+
+}    
+#btn{
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(112, 102, 102);
+    color:blanchedalmond;
+    border-radius: 3px;
+    height: 40px;
+    width:150px
+}
+
+#btn:hover{
+    border: 2px solid gray;
+    box-shadow: 2px 2px 2px 2px indianred;
+    cursor: pointer;
+    background-color: lawngreen;
+    transform:scale(1.02);
+    
+}
+.footer{
+    
+    text-align: center;
+    color: wheat;
+    opacity: 0.3;
+}
+@media only screen and (max-width:850px){
+    #quiz{
+        width: 90%;
+    }
+}
